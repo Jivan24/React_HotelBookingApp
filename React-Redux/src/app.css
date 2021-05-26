@@ -1,0 +1,86 @@
+
+
+.car_detail img{
+    width :100%;
+}
+
+.car_detail h2, .car_detail h3 {
+    margin:0;
+    text-align: center;
+}
+
+.car_detail .content{
+    padding:15px;
+}
+
+#card_phone{
+    width:250px;
+    margin-left:10%;
+    margin-top:4%; 
+    padding:4%;
+    height: 450px;
+}
+
+.phone_main{
+    width:30%;
+    display: inline-block;
+}
+
+.phone_image{
+    width:180px;
+    height:180px;
+}
+
+#model_image{
+    width:180px;
+    height:180px; 
+}
+
+.rounded-circle{
+    width:200px;
+    height:200px
+}
+.main_hotel{
+    margin-top:10%
+}
+.txtwhite{
+    color:white
+}
+
+.active{
+    background-color: lightcoral;
+}
+
+
+.main_search{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.searchInput_con{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border:1px solid black;
+}
+
+.searchInput{
+    border:none;
+    outline:none;
+    margin-left:6px;
+}
+
+.image{
+    height:30px;
+    width:30px
+}
+
+.res_content{
+    margin-top:3%;
+    display: flex;
+    height:200px;
+    align-items: center;
+    font-size: 1.5rem;
+}

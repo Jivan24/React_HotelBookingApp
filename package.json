@@ -1,0 +1,16 @@
+{
+  "name": "hotel-booking",
+  "version": "1.0.0",
+  "description": "This is a short example to help setup a GraphQL server on Node using Express and connect to Mongo DB using Mongoose.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:dep": "npm install && cd GraphQL-Node && npm install && cd .. && cd React-Redux && npm install && cd ..",
+    "start": "npm-run-all -p start:server start:client",
+    "start:server": "cd GraphQL-Node && npm run dev",
+    "start:client": "cd React-Redux && npm start"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
